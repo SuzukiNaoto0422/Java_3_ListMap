@@ -15,7 +15,7 @@ public class MenuList {
 
         //通常のfor文
         for (int i = 0; i< menus.size(); i++) {
-            System.out.println();
+            System.out.println(menus);
         }
 
         //拡張for文
