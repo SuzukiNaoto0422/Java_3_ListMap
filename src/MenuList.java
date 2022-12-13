@@ -15,7 +15,7 @@ public class MenuList {
 
         //通常のfor文
         for (int i = 0; i< menus.size(); i++) {
-            System.out.println(menus);
+            System.out.println((menus.get(i).getName() + "の値段" + menus.get(i).getPrice() + "です。"));
         }
 
         //拡張for文
