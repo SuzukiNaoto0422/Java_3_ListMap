@@ -12,7 +12,7 @@ public class CafeMenu {
         menuList.add("キャラメルラテ");
 
         ArrayList<Integer> priceList = new ArrayList<>();
-        //addAllを使用
+        //addAllを使用して要素の追加
         priceList.addAll(Arrays.asList(420,520,480,620));
 
         //通常のfor文
