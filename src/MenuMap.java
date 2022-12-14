@@ -15,13 +15,5 @@ public class MenuMap {
             int menuPrice = cafeMenu.get(menuName);
             System.out.println(menuName + "の値段は" + menuPrice + "円です。");
         }
-
-        System.out.println("\n");
-        //通常のif文
-//        for (int i = 0; i< cafeMenu.size(); i++) {
-//            String menuName = cafeMenu.keySet().toString();
-//            int menuPrice = cafeMenu.get(menuName);
-//            System.out.println(cafeMenu + "の値段は" + menuPrice + "円です。");
-//        }
     }
 }
