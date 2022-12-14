@@ -4,7 +4,7 @@ import java.util.Arrays;
 public class MenuList {
     public static void main(String[] args) {
 
-        //Menuクラスのインスタンスを定義
+        //Menuクラスのインスタンスを使用
         ArrayList<Menu> menus = new ArrayList<>();
         //１行ずつ追加
         menus.add(new Menu("ブラックコーヒー",420));
