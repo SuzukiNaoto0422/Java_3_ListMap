@@ -9,7 +9,7 @@ public class MenuList {
         //１行ずつ追加
         menus.add(new Menu("ブラックコーヒー",420));
         menus.add(new Menu("カプチーノ",520));
-        //まとめてaddAllを使用しての追加（インスタンスを追加する場合、まとめたところで見づらい？）
+        //まとめてaddAllを使用しての追加（インスタンスを追加する場合、まとめたところで見づらいか）
         menus.addAll(Arrays.asList(new Menu("ホワイトモカ",480),
                                    new Menu("キャラメルラテ",620)));
         //通常のfor文
