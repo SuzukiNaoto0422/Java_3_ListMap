@@ -5,7 +5,7 @@ public class CafeMenu {
     public static void main(String[] args) {
 
         ArrayList<String> menuList = new ArrayList<>();
-        // 順に要素を追加
+        // 順に要素を追加する
         menuList.add("ブラックコーヒー");
         menuList.add("カプチーノ");
         menuList.add("ホワイトモカ");
