@@ -4,7 +4,7 @@ import java.util.Map;
 public class MenuMap {
     public static void main(String[] args) {
 
-        Map<String,Integer> cafeMenu = new HashMap<>();//格納順で取り出したい場合はLinkedHashMap、自然順序で取り出したい場合はTreeMap
+        Map<String,Integer> cafeMenu = new HashMap<>();//格納順で取り出したい場合はLinkedHashMap、自然順序で取り出したい場合はTreeMapを使用
         cafeMenu.put("ブラックコーヒー",420);//Mapにおいての要素の追加はaddではなくput
         cafeMenu.put("カプチーノ",520);
         cafeMenu.put("ホワイトモカ",480);
