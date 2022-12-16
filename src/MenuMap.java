@@ -28,6 +28,5 @@ public class MenuMap {
         }catch (NullPointerException e) {
             System.out.println("メニューにない商品です。");
         }
-
     }
 }

@@ -32,7 +32,5 @@ public class CafeMenu {
             int price = priceList.get(menuList.indexOf(menu));
             System.out.println(menu + " costs " + price + " yen.");
         }
-
-
     }
 }

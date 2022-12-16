@@ -1,20 +1,19 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
-public class MenuList {
+public class MenuList_2 {
     public static void main(String[] args) {
 
         //Menuクラスのインスタンスを使用
-        ArrayList<Menu> menus = new ArrayList<>();
-        //１行ずつ追加
-        menus.add(new Menu("ブラックコーヒー",420));
-        menus.add(new Menu("カプチーノ",520));
-        //まとめてaddAllを使用しての追加（インスタンスを追加する場合、まとめたところで見づらいか）
-        menus.addAll(Arrays.asList(new Menu("ホワイトモカ",480),
-                                   new Menu("キャラメルラテ",620)));
+        List<Menu> menus = List.of(new Menu("ブラックコーヒー",420),
+                             new Menu("カプチーノ",520),
+                             new Menu("ホワイトモカ",480),
+                             new Menu("キャラメルラテ",620));
+
         //通常のfor文
         for (int i = 0; i < menus.size(); i++) {
-            System.out.println((menus.get(i).getName() + "の値段は" + menus.get(i).getPrice() + "円です。"));
+            System.out.println(menus.get(i).getName() + "の値段は" + menus.get(i).getPrice() + "円です。");
         }
 
         System.out.println("\n");
